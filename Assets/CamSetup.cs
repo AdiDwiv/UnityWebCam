@@ -32,7 +32,6 @@ public class CamSetup : MonoBehaviour {
 		frame.SetPixels(wct.GetPixels());
 		byte[] bytes = frame.EncodeToPNG();
 		print ("update");
-		//MLKitUnity.masterCall (bytes, wct.width, wct.height);
 	}
 
 	void OnLowMemory () {
